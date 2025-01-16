@@ -1,0 +1,20 @@
+
+DARK ALPHA ENGINE - UPDATE LOG
+
+Version 1.0.0 (Latest)
+- Initial release of Dark Alpha Engine
+- Added StarTrek race system with unique traits
+- Implemented core combat mechanics
+- Added alliance and corporation systems
+- Implemented real-time multiplayer support
+- Added dungeon and raid systems
+- Introduced empire management features
+- Added research and technology trees
+- Implemented economy and trading systems
+
+Future Updates (Planned)
+- Enhanced AI behaviors
+- New star systems and territories
+- Additional race evolution paths
+- Advanced fleet formations
+- Expanded corporation features

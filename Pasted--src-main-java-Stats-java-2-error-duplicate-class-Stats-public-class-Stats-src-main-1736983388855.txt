@@ -1,0 +1,414 @@
+./src/main/java/Stats.java:2: error: duplicate class: Stats
+public class Stats {
+       ^
+./src/main/java/SpaceTransport.java:108: error: duplicate class: Ship
+class Ship {
+^
+./src/main/java/Ship.java:3: error: duplicate class: Ship
+public class Ship {
+       ^
+./src/main/java/Game.java:4: error: duplicate class: MessageSystem
+class MessageSystem {
+^
+./src/main/java/Game.java:11: error: duplicate class: SaveSystem
+class SaveSystem {
+^
+./src/main/java/Game.java:70: error: duplicate class: AudioSystem
+class AudioSystem {
+^
+./src/main/java/Game.java:79: error: duplicate class: Player
+class Player {
+^
+./src/main/java/Game.java:83: error: duplicate class: Universe
+class Universe {
+^
+./src/main/java/Game.java:87: error: duplicate class: Resources
+class Resources {
+^
+./src/main/java/Game.java:91: error: duplicate class: Coordinates3D
+class Coordinates3D {
+^
+./src/main/java/Game.java:118: error: duplicate class: ImpulseDrive
+class ImpulseDrive {
+^
+./src/main/java/Game.java:124: error: duplicate class: Ship
+class Ship {
+^
+./src/main/java/Game.java:146: error: duplicate class: SpaceTransport
+class SpaceTransport {
+^
+./src/main/java/Game.java:160: error: duplicate class: Game
+public class Game {
+       ^
+./src/main/java/Game.java:219: error: duplicate class: GameTest
+class GameTest{
+^
+./src/main/java/Position.java:2: error: duplicate class: Position
+public class Position {
+       ^
+./src/main/java/CombatSystem.java:4: error: duplicate class: Coordinates3D
+class Coordinates3D {
+^
+./src/main/java/CombatSystem.java:16: error: duplicate class: Position
+class Position {
+^
+./src/main/java/CombatSystem.java:31: error: class Ship is public, should be declared in a file named Ship.java
+public class Ship {
+       ^
+./src/main/java/CombatSystem.java:57: error: duplicate class: EnemyShip
+class EnemyShip extends Ship {
+^
+./src/main/java/CombatSystem.java:66: error: duplicate class: Fleet
+class Fleet {
+^
+./src/main/java/CombatSystem.java:78: error: duplicate class: CombatLog
+class CombatLog {
+^
+./src/main/java/CombatSystem.java:82: error: duplicate class: Rewards
+class Rewards {
+^
+./src/main/java/CombatSystem.java:95: error: duplicate class: CombatResult
+class CombatResult {
+^
+./src/main/java/CombatSystem.java:109: error: duplicate class: CombatSystem
+public class CombatSystem {
+       ^
+./src/main/java/Fleet.java:5: error: duplicate class: Fleet
+public class Fleet {
+       ^
+./src/main/java/Rewards.java:2: error: duplicate class: Rewards
+public class Rewards {
+       ^
+./src/main/java/Player.java:4: error: duplicate class: Account
+class Account {
+^
+./src/main/java/Player.java:8: error: duplicate class: StarTrekRace
+enum StarTrekRace {
+^
+./src/main/java/Player.java:15: error: duplicate class: StarTrekTechnology
+class StarTrekTechnology {
+^
+./src/main/java/Player.java:31: error: duplicate class: Fleet
+class Fleet {
+^
+./src/main/java/Player.java:35: error: duplicate class: Player
+class Player {
+^
+./src/main/java/Player.java:73: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+./src/main/java/BattlePass.java:5: error: cannot find symbol
+    private Map<Integer, Reward> rewards;
+            ^
+  symbol:   class Map
+  location: class BattlePass
+./src/main/java/BattlePass.java:5: error: cannot find symbol
+    private Map<Integer, Reward> rewards;
+                         ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/BattlePass.java:7: error: cannot find symbol
+    private Date seasonEndDate;
+            ^
+  symbol:   class Date
+  location: class BattlePass
+./src/main/java/BattlePass.java:18: error: cannot find symbol
+    private Date calculateSeasonEnd() {
+            ^
+  symbol:   class Date
+  location: class BattlePass
+./src/main/java/BattlePass.java:55: error: cannot find symbol
+    public Reward getReward(int level) {
+           ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/GameTest.java:2: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+./src/main/java/GameTest.java:3: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+./src/main/java/CombatInstance.java:8: error: cannot find symbol
+    private List<Ship> attackerShips;
+            ^
+  symbol:   class List
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:9: error: cannot find symbol
+    private List<Ship> defenderShips;
+            ^
+  symbol:   class List
+  location: class CombatInstance
+./src/main/java/Main.java:852: error: cannot find symbol
+    private Map<String, CelestialBody> celestialBodies;
+                        ^
+  symbol:   class CelestialBody
+  location: class Game
+./src/main/java/GameTest.java:6: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GameTest
+./src/main/java/GameTest.java:13: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GameTest
+./src/main/java/GameTest.java:35: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GameTest
+./src/main/java/GameTest.java:50: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GameTest
+./src/main/java/BattlePass.java:12: error: cannot find symbol
+        this.rewards = new HashMap<>();
+                           ^
+  symbol:   class HashMap
+  location: class BattlePass
+./src/main/java/BattlePass.java:19: error: cannot find symbol
+        Calendar calendar = Calendar.getInstance();
+        ^
+  symbol:   class Calendar
+  location: class BattlePass
+./src/main/java/BattlePass.java:19: error: cannot find symbol
+        Calendar calendar = Calendar.getInstance();
+                            ^
+  symbol:   variable Calendar
+  location: class BattlePass
+./src/main/java/BattlePass.java:20: error: cannot find symbol
+        calendar.add(Calendar.MONTH, 3); // 3-month season
+                     ^
+  symbol:   variable Calendar
+  location: class BattlePass
+./src/main/java/BattlePass.java:28: error: cannot find symbol
+                rewards.put(i, new Reward("credits", 1000 * (i/5)));
+                                   ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/BattlePass.java:36: error: cannot find symbol
+                    rewards.put(i, new Reward("unique_ship", "Premium Ship " + i));
+                                       ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/GameTest.java:9: error: cannot find symbol
+        assertEquals(1, player.getLevel());
+        ^
+  symbol:   method assertEquals(int,int)
+  location: class GameTest
+./src/main/java/GameTest.java:10: error: cannot find symbol
+        assertNotNull(player.getFleet());
+        ^
+  symbol:   method assertNotNull(Fleet)
+  location: class GameTest
+./src/main/java/GameTest.java:26: error: cannot find symbol
+        assertNotNull(result);
+        ^
+  symbol:   method assertNotNull(CombatResult)
+  location: class GameTest
+./src/main/java/GameTest.java:27: error: cannot find symbol
+        assertNotNull(result.rewards);
+        ^
+  symbol:   method assertNotNull(Rewards)
+  location: class GameTest
+./src/main/java/GameTest.java:28: error: cannot find symbol
+        assertTrue(result.rewards.getClass() == Rewards.class);
+        ^
+  symbol:   method assertTrue(boolean)
+  location: class GameTest
+./src/main/java/GameTest.java:31: error: cannot find symbol
+        assertEquals(Ship.Position.FRONT, 
+        ^
+  symbol:   method assertEquals(Position,Position)
+  location: class GameTest
+./src/main/java/GameTest.java:41: error: cannot find symbol
+        Set<Integer> damages = new HashSet<>();
+        ^
+  symbol:   class Set
+  location: class GameTest
+./src/main/java/GameTest.java:41: error: cannot find symbol
+        Set<Integer> damages = new HashSet<>();
+                                   ^
+  symbol:   class HashSet
+  location: class GameTest
+./src/main/java/GameTest.java:43: error: calculateDamage(Ship) has private access in CombatSystem
+            damages.add(combat.calculateDamage(testShip));
+                              ^
+./src/main/java/GameTest.java:53: error: cannot find symbol
+        assertNotNull(universe);
+        ^
+  symbol:   method assertNotNull(Universe)
+  location: class GameTest
+./src/main/java/GameTest.java:57: error: cannot find symbol
+        assertNotNull(nearestGalaxy);
+        ^
+  symbol:   method assertNotNull(Galaxy)
+  location: class GameTest
+./src/main/java/CombatInstance.java:20: error: cannot find symbol
+        this.attackerShips = new ArrayList<>(attacker.getFleet().getShips());
+                                 ^
+  symbol:   class ArrayList
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:21: error: cannot find symbol
+        this.defenderShips = isPvP ? new ArrayList<>(defender.getFleet().getShips()) 
+                                         ^
+  symbol:   class ArrayList
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:22: error: cannot find symbol
+                                  : new ArrayList<>(enemyFleet.getShips());
+                                        ^
+  symbol:   class ArrayList
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:34: error: cannot find symbol
+        Ship actor = findShipById(playerId, action.getShipId());
+                     ^
+  symbol:   method findShipById(String,String)
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:35: error: cannot find symbol
+        Ship target = findTargetShip(action.getTargetId());
+                      ^
+  symbol:   method findTargetShip(String)
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:43: error: cannot find symbol
+                    updatePosition(actor, action.getNewPosition());
+                    ^
+  symbol:   method updatePosition(Ship,Position)
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:46: error: cannot find symbol
+                    executeSpecialAbility(actor, target);
+                    ^
+  symbol:   method executeSpecialAbility(Ship,Ship)
+  location: class CombatInstance
+./src/main/java/CombatInstance.java:56: error: cannot find symbol
+        int damage = attacker.calculateDamage();
+                             ^
+  symbol:   method calculateDamage()
+  location: variable attacker of type Ship
+./src/main/java/CombatInstance.java:60: error: cannot find symbol
+        target.takeDamage(damage);
+              ^
+  symbol:   method takeDamage(int)
+  location: variable target of type Ship
+./src/main/java/AudioSystem.java:24: error: cannot find symbol
+            AudioInputStream ais = AudioSystem.getAudioInputStream(
+                                              ^
+  symbol:   method getAudioInputStream(File)
+  location: class AudioSystem
+./src/main/java/AudioSystem.java:36: error: cannot find symbol
+            AudioInputStream ais = AudioSystem.getAudioInputStream(new File(path));
+                                              ^
+  symbol:   method getAudioInputStream(File)
+  location: class AudioSystem
+./src/main/java/Main.java:858: error: cannot find symbol
+        this.celestialBodies = initializeCelestialBodies();
+                               ^
+  symbol:   method initializeCelestialBodies()
+  location: class Game
+./src/main/java/GUI.java:123: error: cannot find symbol
+        Account playerAccount = game.getPlayer().getAccount();
+                                    ^
+  symbol:   method getPlayer()
+  location: variable game of type Game
+./src/main/java/GUI.java:124: error: cannot find symbol
+        BattlePass battlePass = playerAccount.getBattlePass();
+                                             ^
+  symbol:   method getBattlePass()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:126: error: cannot find symbol
+        JLabel usernameLabel = new JLabel("Username: " + playerAccount.getUsername());
+                                                                      ^
+  symbol:   method getUsername()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:138: error: cannot find symbol
+        for (Map.Entry<String, Integer> stat : playerAccount.getStatistics().entrySet()) {
+                                                            ^
+  symbol:   method getStatistics()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:274: error: cannot find symbol
+                    game.getSaveSystem().saveGame(game, slot);
+                        ^
+  symbol:   method getSaveSystem()
+  location: variable game of type Game
+./src/main/java/GUI.java:362: error: cannot find symbol
+        Fleet playerFleet = game.getPlayer().getFleet();
+                                ^
+  symbol:   method getPlayer()
+  location: variable game of type Game
+./src/main/java/GUI.java:382: error: cannot find symbol
+                SaveSystem.GameData gameData = game.getSaveSystem().loadGame(slot);
+                                                   ^
+  symbol:   method getSaveSystem()
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:61: error: cannot find symbol
+        this.player = game.getPlayer();
+                          ^
+  symbol:   method getPlayer()
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:62: error: cannot find symbol
+        this.universe = game.getUniverse();
+                            ^
+  symbol:   method getUniverse()
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:63: error: cannot find symbol
+        this.resources = game.getResources();
+                             ^
+  symbol:   method getResources()
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:68: error: cannot find symbol
+        game.setPlayer(player);
+            ^
+  symbol:   method setPlayer(Player)
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:69: error: cannot find symbol
+        game.setUniverse(universe);
+            ^
+  symbol:   method setUniverse(Universe)
+  location: variable game of type Game
+./src/main/java/SaveSystem.java:70: error: cannot find symbol
+        game.setResources(resources);
+            ^
+  symbol:   method setResources(Resources)
+  location: variable game of type Game
+./src/main/java/SpaceTransport.java:56: error: cannot find symbol
+        double distance = ship.getPosition().distanceTo(destination);
+                                            ^
+  symbol:   method distanceTo(Coordinates3D)
+  location: class Position
+./src/main/java/SpaceTransport.java:167: error: cannot find symbol
+            ship.getImpulseDrive().activateImpulse(destination);
+                ^
+  symbol:   method getImpulseDrive()
+  location: variable ship of type Ship
+./src/main/java/EnemyShip.java:10: error: enum types may not be instantiated
+        super(new Position(new Coordinates3D(0, 0, 0)));
+              ^
+./src/main/java/EnemyShip.java:15: error: enum types may not be instantiated
+        super(new Position(new Coordinates3D(0, 0, 0)));
+              ^
+./src/main/java/EnemyShip.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+./src/main/java/RaidBoss.java:13: error: enum types may not be instantiated
+        super(new Position(new Coordinates3D(0, 0, 0)));
+              ^
+./src/main/java/RaidBoss.java:15: error: name has private access in EnemyShip
+        this.name = name;
+            ^
+./src/main/java/RaidBoss.java:16: error: enemyType has private access in EnemyShip
+        this.enemyType = "RAID_BOSS";
+            ^
+./src/main/java/RaidBoss.java:17: error: level has private access in EnemyShip
+        this.level = level;
+            ^
+./src/main/java/RaidBoss.java:18: error: isBoss has private access in EnemyShip
+        this.isBoss = true;
+            ^
+./src/main/java/RaidBoss.java:19: error: cannot find symbol
+        initBossAbilities();
+        ^
+  symbol:   method initBossAbilities()
+  location: class RaidBoss
+100 errors
+ 

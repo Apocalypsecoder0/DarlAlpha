@@ -1,0 +1,412 @@
+./src/main/java/Game.java:11: error: duplicate class: SaveSystem
+class SaveSystem {
+^
+./src/main/java/Game.java:70: error: duplicate class: AudioSystem
+class AudioSystem {
+^
+./src/main/java/Game.java:100: error: duplicate class: Coordinates3D
+class Coordinates3D {
+^
+./src/main/java/Game.java:127: error: duplicate class: ImpulseDrive
+class ImpulseDrive {
+^
+./src/main/java/Game.java:155: error: duplicate class: SpaceTransport
+class SpaceTransport {
+^
+./src/main/java/ResearchSystem.java:2: error: duplicate class: ResearchSystem
+public class ResearchSystem {
+       ^
+./src/main/java/MarketOrder.java:2: error: duplicate class: MarketOrder
+public class MarketOrder {
+       ^
+./src/main/java/MessageSystem.java:3: error: duplicate class: MessageSystem
+public class MessageSystem {
+       ^
+./src/main/java/Player.java:4: error: duplicate class: Account
+class Account {
+^
+./src/main/java/Player.java:8: error: duplicate class: StarTrekRace
+enum StarTrekRace {
+^
+./src/main/java/Player.java:15: error: duplicate class: StarTrekTechnology
+class StarTrekTechnology {
+^
+./src/main/java/Player.java:42: error: duplicate class: Resources
+class Resources {
+^
+./src/main/java/Player.java:46: error: duplicate class: Bank
+class Bank {
+^
+./src/main/java/Player.java:50: error: duplicate class: Player
+public class Player {
+       ^
+./src/main/java/Player.java:93: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+./src/main/java/Stats.java:2: error: duplicate class: Stats
+public class Stats {
+       ^
+./src/main/java/Fleet.java:5: error: duplicate class: Fleet
+public class Fleet {
+       ^
+./src/main/java/Position.java:1: error: duplicate class: Position
+public class Position {
+       ^
+./src/main/java/GameTest.java:4: error: duplicate class: GameTest
+public class GameTest {
+       ^
+./src/main/java/CombatInstance.java:9: error: duplicate class: main.java.CombatInstance
+public class CombatInstance {
+       ^
+./src/main/java/Main.java:13: error: duplicate class: main.java.Ship
+class Ship {
+^
+./src/main/java/Main.java:262: error: duplicate class: main.java.Resources
+class Resources {
+^
+./src/main/java/Main.java:350: error: duplicate class: main.java.CombatSystem
+class CombatSystem {
+^
+./src/main/java/Main.java:482: error: duplicate class: main.java.CombatLog
+class CombatLog {
+^
+./src/main/java/Main.java:496: error: duplicate class: main.java.CombatResult
+class CombatResult {
+^
+./src/main/java/Main.java:506: error: duplicate class: main.java.Rewards
+class Rewards {
+^
+./src/main/java/Main.java:831: error: duplicate class: main.java.Fleet
+class Fleet {
+^
+./src/main/java/Main.java:848: error: duplicate class: main.java.CombatInstance
+class CombatInstance {
+^
+./src/main/java/Ship.java:5: error: duplicate class: main.java.Ship
+public class Ship {
+       ^
+./src/main/java/Coordinates3D.java:4: error: duplicate class: main.java.Coordinates3D
+public class Coordinates3D {
+       ^
+./src/main/java/BattlePass.java:7: error: cannot find symbol
+    private Map<Integer, Reward> rewards;
+                         ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/BattlePass.java:57: error: cannot find symbol
+    public Reward getReward(int level) {
+           ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/AllianceBank.java:4: error: cannot find symbol
+    private Map<String, BankPermission> memberPermissions;
+            ^
+  symbol:   class Map
+  location: class AllianceBank
+./src/main/java/AllianceBank.java:30: error: cannot find symbol
+    private Set<BankAction> allowedActions;
+            ^
+  symbol:   class Set
+  location: class BankPermission
+./src/main/java/EconomySystem.java:3: error: cannot find symbol
+    private Map<String, Double> resourcePrices;
+            ^
+  symbol:   class Map
+  location: class EconomySystem
+./src/main/java/EconomySystem.java:4: error: cannot find symbol
+    private Map<String, Integer> marketVolume;
+            ^
+  symbol:   class Map
+  location: class EconomySystem
+./src/main/java/CombatSystem.java:149: error: cannot find symbol
+    private Map<String, ShipModule> modules;
+                        ^
+  symbol:   class ShipModule
+  location: class Ship
+./src/main/java/CombatSystem.java:177: error: constructor Ship(int,int,int) is already defined in class Ship
+    public Ship(int health, int shields, int attack) {
+           ^
+./src/main/java/Corporation.java:8: error: cannot find symbol
+    private Map<String, Member> members;
+                        ^
+  symbol:   class Member
+  location: class Corporation
+./src/main/java/Corporation.java:9: error: cannot find symbol
+    private Map<String, Territory> controlledTerritories;
+                        ^
+  symbol:   class Territory
+  location: class Corporation
+./src/main/java/Corporation.java:10: error: cannot find symbol
+    private CorporateAssets assets;
+            ^
+  symbol:   class CorporateAssets
+  location: class Corporation
+./src/main/java/Corporation.java:11: error: cannot find symbol
+    private TaxSystem taxSystem;
+            ^
+  symbol:   class TaxSystem
+  location: class Corporation
+./src/main/java/Corporation.java:35: error: cannot find symbol
+    public boolean hasPermission(String playerId, Permission permission) {
+                                                  ^
+  symbol:   class Permission
+  location: class Corporation
+./src/main/java/Corporation.java:57: error: cannot find symbol
+    public boolean hasPermission(Permission permission) {
+                                 ^
+  symbol:   class Permission
+  location: class CorporateRole
+./src/main/java/IndustrySystem.java:7: error: cannot find symbol
+    private List<ProductionJob> activeJobs;
+                 ^
+  symbol:   class ProductionJob
+  location: class IndustrySystem
+./src/main/java/IndustrySystem.java:73: error: cannot find symbol
+    private ProductionJob currentJob;
+            ^
+  symbol:   class ProductionJob
+  location: class IndustrialFacility
+./src/main/java/IndustrySystem.java:96: error: cannot find symbol
+    public void startJob(ProductionJob job) {
+                         ^
+  symbol:   class ProductionJob
+  location: class IndustrialFacility
+./src/main/java/CombatInstance.java:115: error: cannot find symbol
+    private Ship.Position newPosition;
+                ^
+  symbol:   class Position
+  location: class Ship
+./src/main/java/CombatInstance.java:126: error: cannot find symbol
+    public Ship.Position getNewPosition() { return newPosition; }
+               ^
+  symbol:   class Position
+  location: class Ship
+./src/main/java/Main.java:232: error: cannot find symbol
+    private List<Resource> resources;
+                 ^
+  symbol:   class Resource
+  location: class Sector
+./src/test/java/GameTest.java:4: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+./src/test/java/GameTest.java:5: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+./src/main/java/GameTest.java:1: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+./src/main/java/GameTest.java:2: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+./src/test/java/GameTest.java:9: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class GameTest
+./src/main/java/Game.java:139: error: constructor ImpulseDrive in class ImpulseDrive cannot be applied to given types;
+        this.impulseDrive = new ImpulseDrive();
+                            ^
+  required: int
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+./src/main/java/EnemyShip.java:11: error: cannot find symbol
+        setHealth(health);
+        ^
+  symbol:   method setHealth(int)
+  location: class EnemyShip
+./src/main/java/EnemyShip.java:16: error: cannot find symbol
+        setHealth(100 * level); // Base health calculation
+        ^
+  symbol:   method setHealth(int)
+  location: class EnemyShip
+./src/main/java/EnemyShip.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+./src/main/java/RaidBoss.java:13: error: incompatible types: Position cannot be converted to int
+        super(new Position(new Coordinates3D(0, 0, 0)));
+              ^
+./src/main/java/RaidBoss.java:14: error: cannot find symbol
+        setHealth(level * 1000);
+        ^
+  symbol:   method setHealth(int)
+  location: class RaidBoss
+./src/main/java/RaidBoss.java:15: error: name has private access in EnemyShip
+        this.name = name;
+            ^
+./src/main/java/RaidBoss.java:16: error: enemyType has private access in EnemyShip
+        this.enemyType = "RAID_BOSS";
+            ^
+./src/main/java/RaidBoss.java:17: error: level has private access in EnemyShip
+        this.level = level;
+            ^
+./src/main/java/RaidBoss.java:18: error: isBoss has private access in EnemyShip
+        this.isBoss = true;
+            ^
+./src/main/java/RaidBoss.java:19: error: cannot find symbol
+        initBossAbilities();
+        ^
+  symbol:   method initBossAbilities()
+  location: class RaidBoss
+./src/main/java/BattlePass.java:30: error: cannot find symbol
+                rewards.put(i, new Reward("credits", 1000 * (i/5)));
+                                   ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/BattlePass.java:38: error: cannot find symbol
+                    rewards.put(i, new Reward("unique_ship", "Premium Ship " + i));
+                                       ^
+  symbol:   class Reward
+  location: class BattlePass
+./src/main/java/SpaceTransport.java:56: error: cannot find symbol
+        double distance = ship.getPosition().distanceTo(destination);
+                                            ^
+  symbol:   method distanceTo(Coordinates3D)
+  location: class Position
+./src/main/java/AllianceBank.java:9: error: cannot find symbol
+        this.memberPermissions = new HashMap<>();
+                                     ^
+  symbol:   class HashMap
+  location: class AllianceBank
+./src/main/java/AllianceBank.java:33: error: cannot find symbol
+        this.allowedActions = new HashSet<>();
+                                  ^
+  symbol:   class HashSet
+  location: class BankPermission
+./src/main/java/GUI.java:123: error: cannot find symbol
+        Account playerAccount = game.getPlayer().getAccount();
+                                                ^
+  symbol:   method getAccount()
+  location: class Player
+./src/main/java/GUI.java:124: error: cannot find symbol
+        BattlePass battlePass = playerAccount.getBattlePass();
+                                             ^
+  symbol:   method getBattlePass()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:126: error: cannot find symbol
+        JLabel usernameLabel = new JLabel("Username: " + playerAccount.getUsername());
+                                                                      ^
+  symbol:   method getUsername()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:138: error: cannot find symbol
+        for (Map.Entry<String, Integer> stat : playerAccount.getStatistics().entrySet()) {
+                                                            ^
+  symbol:   method getStatistics()
+  location: variable playerAccount of type Account
+./src/main/java/GUI.java:396: error: cannot find symbol
+        Fleet playerFleet = game.getPlayer().getFleet();
+                                            ^
+  symbol:   method getFleet()
+  location: class Player
+./src/main/java/GUI.java:397: error: cannot find symbol
+        for (Ship ship : playerFleet.getShips()) {
+                                    ^
+  symbol:   method getShips()
+  location: variable playerFleet of type Fleet
+./src/main/java/GUI.java:398: error: cannot find symbol
+            addStatusLabel(statusPanel, "Ship Name", ship.getName());
+                                                         ^
+  symbol:   method getName()
+  location: variable ship of type Ship
+./src/main/java/GUI.java:399: error: cannot find symbol
+            addStatusLabel(statusPanel, "Health", ship.getHealth() + "");
+                                                      ^
+  symbol:   method getHealth()
+  location: variable ship of type Ship
+./src/main/java/GUI.java:400: error: cannot find symbol
+            addStatusLabel(statusPanel, "Shields", ship.getShields() + "");
+                                                       ^
+  symbol:   method getShields()
+  location: variable ship of type Ship
+./src/main/java/GUI.java:439: error: method loadGame in class SaveSystem cannot be applied to given types;
+                SaveSystem.GameData gameData = game.getSaveSystem().loadGame(slot);
+                                                                   ^
+  required: Game,int
+  found:    int
+  reason: actual and formal argument lists differ in length
+./src/main/java/Game.java:273: error: messageSystem has private access in Game
+        game.messageSystem.printMessage("Game Started!");
+            ^
+./src/main/java/Game.java:274: error: audioSystem has private access in Game
+        game.audioSystem.playMusic("backgroundMusic.mp3");
+            ^
+./src/main/java/Game.java:275: error: constructor GameData in class GameData cannot be applied to given types;
+        SaveSystem.GameData gameData = new SaveSystem.GameData(100,1,"Player1");
+                                       ^
+  required: Game
+  found:    int,int,String
+  reason: actual and formal argument lists differ in length
+./src/main/java/Game.java:276: error: incompatible types: GameData cannot be converted to Game
+        game.getSaveSystem().saveGame(gameData,0);
+                                      ^
+./src/main/java/Game.java:277: error: method loadGame in class SaveSystem cannot be applied to given types;
+        SaveSystem.GameData loadedData = game.getSaveSystem().loadGame(0);
+                                                             ^
+  required: Game,int
+  found:    int
+  reason: actual and formal argument lists differ in length
+./src/main/java/Game.java:279: error: cannot find symbol
+            System.out.println("Loaded Data: Health = " + loadedData.playerHealth + ", Level = " + loadedData.playerLevel + ", Name = " + loadedData.playerName);
+                                                                    ^
+  symbol:   variable playerHealth
+  location: variable loadedData of type GameData
+./src/main/java/Game.java:279: error: cannot find symbol
+            System.out.println("Loaded Data: Health = " + loadedData.playerHealth + ", Level = " + loadedData.playerLevel + ", Name = " + loadedData.playerName);
+                                                                                                             ^
+  symbol:   variable playerLevel
+  location: variable loadedData of type GameData
+./src/main/java/Game.java:279: error: cannot find symbol
+            System.out.println("Loaded Data: Health = " + loadedData.playerHealth + ", Level = " + loadedData.playerLevel + ", Name = " + loadedData.playerName);
+                                                                                                                                                    ^
+  symbol:   variable playerName
+  location: variable loadedData of type GameData
+./src/main/java/EconomySystem.java:7: error: cannot find symbol
+        this.resourcePrices = new HashMap<>();
+                                  ^
+  symbol:   class HashMap
+  location: class EconomySystem
+./src/main/java/EconomySystem.java:8: error: cannot find symbol
+        this.marketVolume = new HashMap<>();
+                                ^
+  symbol:   class HashMap
+  location: class EconomySystem
+./src/main/java/MarketSystem.java:20: error: cannot find symbol
+        updatePriceHistory(order);
+        ^
+  symbol:   method updatePriceHistory(MarketOrder)
+  location: class MarketSystem
+./src/main/java/CombatSystem.java:163: error: cannot find symbol
+        modules.put("weapons", new ShipModule("weapons", 100));
+                                   ^
+  symbol:   class ShipModule
+  location: class Ship
+./src/main/java/CombatSystem.java:164: error: cannot find symbol
+        modules.put("shields", new ShipModule("shields", 100));
+                                   ^
+  symbol:   class ShipModule
+  location: class Ship
+./src/main/java/CombatSystem.java:165: error: cannot find symbol
+        modules.put("ecm", new ShipModule("ecm", 100));
+                               ^
+  symbol:   class ShipModule
+  location: class Ship
+./src/main/java/CombatSystem.java:169: error: cannot find symbol
+        ShipModule module = modules.get(moduleName);
+        ^
+  symbol:   class ShipModule
+  location: class Ship
+./src/main/java/CombatSystem.java:129: error: x has private access in Coordinates3D
+        int dx = this.coordinates.x - other.coordinates.x;
+                                 ^
+./src/main/java/CombatSystem.java:129: error: x has private access in Coordinates3D
+        int dx = this.coordinates.x - other.coordinates.x;
+                                                       ^
+./src/main/java/CombatSystem.java:130: error: y has private access in Coordinates3D
+        int dy = this.coordinates.y - other.coordinates.y;
+                                 ^
+./src/main/java/CombatSystem.java:130: error: y has private access in Coordinates3D
+        int dy = this.coordinates.y - other.coordinates.y;
+                                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+only showing the first 100 errors, of 127 total; use -Xmaxerrs if you would like to see more
+ 

@@ -1,0 +1,487 @@
+ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/workspace/src/main/java/Coordinates3D.java:[2,8] duplicate class: Coordinates3D
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[21,1] duplicate class: Ship
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[514,1] duplicate class: Rewards
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[856,1] duplicate class: CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[909,1] duplicate class: GUI
+[ERROR] /home/runner/workspace/src/main/java/MessageSystem.java:[3,8] duplicate class: MessageSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[4,1] duplicate class: MessageSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[11,1] duplicate class: SaveSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[70,1] duplicate class: AudioSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[79,1] duplicate class: Player
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[92,1] duplicate class: Universe
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[96,1] duplicate class: Resources
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[100,1] duplicate class: Coordinates3D
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[116,1] duplicate class: Position
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[127,1] duplicate class: ImpulseDrive
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[133,1] duplicate class: Ship
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[155,1] duplicate class: SpaceTransport
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[169,1] duplicate class: Economy
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[173,1] duplicate class: ResearchSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[177,1] duplicate class: CombatSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[181,1] duplicate class: MissionSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[185,1] duplicate class: AllianceSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[189,1] duplicate class: DungeonSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[193,1] duplicate class: GoddessSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[201,8] duplicate class: Game
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[270,1] duplicate class: GameTest
+[ERROR] /home/runner/workspace/src/main/java/UniverseGenerator.java:[6,8] duplicate class: UniverseGenerator
+[ERROR] /home/runner/workspace/src/main/java/ResearchSystem.java:[2,8] duplicate class: ResearchSystem
+[ERROR] /home/runner/workspace/src/main/java/ResearchSystem.java:[34,1] duplicate class: Technology
+[ERROR] /home/runner/workspace/src/main/java/MarketOrder.java:[2,8] duplicate class: MarketOrder
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[4,1] duplicate class: Account
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[15,1] duplicate class: StarTrekTechnology
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[31,1] duplicate class: Fleet
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[35,1] duplicate class: Stats
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[42,1] duplicate class: Resources
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[46,1] duplicate class: Bank
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[50,8] duplicate class: Player
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[93,8] class Main is public, should be declared in a file named Main.java
+[ERROR] /home/runner/workspace/src/main/java/StarTrekRace.java:[1,8] duplicate class: StarTrekRace
+[ERROR] /home/runner/workspace/src/main/java/Fleet.java:[5,8] duplicate class: Fleet
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[8,13] cannot find symbol
+  symbol:   class List
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[9,13] cannot find symbol
+  symbol:   class List
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[1,24] package org.junit does not exist
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[2,17] package org.junit does not exist
+[ERROR] /home/runner/workspace/src/main/java/AllianceBank.java:[4,13] cannot find symbol
+  symbol:   class Map
+  location: class AllianceBank
+[ERROR] /home/runner/workspace/src/main/java/AllianceBank.java:[30,13] cannot find symbol
+  symbol:   class Set
+  location: class BankPermission
+[ERROR] /home/runner/workspace/src/main/java/EconomySystem.java:[3,13] cannot find symbol
+  symbol:   class Map
+  location: class EconomySystem
+[ERROR] /home/runner/workspace/src/main/java/EconomySystem.java:[4,13] cannot find symbol
+  symbol:   class Map
+  location: class EconomySystem
+[ERROR] /home/runner/workspace/src/main/java/CombatSystem.java:[149,25] cannot find symbol
+  symbol:   class ShipModule
+  location: class main.java.Ship
+[ERROR] /home/runner/workspace/src/main/java/CombatSystem.java:[177,12] constructor Ship(int,int,int) is already defined in class main.java.Ship
+[ERROR] /home/runner/workspace/src/main/java/BattlePass.java:[7,26] cannot find symbol
+  symbol:   class Reward
+  location: class BattlePass
+[ERROR] /home/runner/workspace/src/main/java/BattlePass.java:[57,12] cannot find symbol
+  symbol:   class Reward
+  location: class BattlePass
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[8,25] cannot find symbol
+  symbol:   class Member
+  location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[9,25] cannot find symbol
+  symbol:   class Territory
+  location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[10,13] cannot find symbol
+  symbol:   class CorporateAssets
+  location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[11,13] cannot find symbol
+  symbol:   class TaxSystem
+  location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[35,51] cannot find symbol
+  symbol:   class Permission
+  location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[57,34] cannot find symbol
+  symbol:   class Permission
+  location: class CorporateRole
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[7,18] cannot find symbol
+  symbol:   class ProductionJob
+  location: class IndustrySystem
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[73,13] cannot find symbol
+  symbol:   class ProductionJob
+  location: class IndustrialFacility
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[96,26] cannot find symbol
+  symbol:   class ProductionJob
+  location: class IndustrialFacility
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[5,6] cannot find symbol
+  symbol:   class Test
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[12,6] cannot find symbol
+  symbol:   class Test
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[19,6] cannot find symbol
+  symbol:   class Test
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[41,6] cannot find symbol
+  symbol:   class Test
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[56,6] cannot find symbol
+  symbol:   class Test
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[20,34] cannot find symbol
+  symbol:   class ArrayList
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[21,42] cannot find symbol
+  symbol:   class ArrayList
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[22,41] cannot find symbol
+  symbol:   class ArrayList
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[34,22] cannot find symbol
+  symbol:   method findShipById(java.lang.String,java.lang.String)
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[35,23] cannot find symbol
+  symbol:   method findTargetShip(java.lang.String)
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[43,21] cannot find symbol
+  symbol:   method updatePosition(Ship,Ship.Position)
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[46,21] cannot find symbol
+  symbol:   method executeSpecialAbility(Ship,Ship)
+  location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[56,30] cannot find symbol
+  symbol:   method calculateDamage()
+  location: variable attacker of type Ship
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[60,15] cannot find symbol
+  symbol:   method takeDamage(int)
+  location: variable target of type Ship
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[61,27] cannot find symbol
+  symbol:   method getPlayer()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[62,29] cannot find symbol
+  symbol:   method getUniverse()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[63,30] cannot find symbol
+  symbol:   method getResources()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[68,13] cannot find symbol
+  symbol:   method setPlayer(Player)
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[69,13] cannot find symbol
+  symbol:   method setUniverse(Universe)
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[70,13] cannot find symbol
+  symbol:   method setResources(Resources)
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SpaceTransport.java:[56,45] cannot find symbol
+  symbol:   method distanceTo(Coordinates3D)
+  location: class Ship.Position
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[8,56] cannot find symbol
+  symbol:   method getPlayer()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[9,54] cannot find symbol
+  symbol:   method getShip()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[15,9] cannot find symbol
+  symbol:   method assertEquals(java.lang.String,int,int)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[16,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.String,Fleet)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotNull(CombatResult)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[33,9] cannot find symbol
+  symbol:   method assertNotNull(Rewards)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[34,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[37,9] cannot find symbol
+  symbol:   method assertEquals(Ship.Position,Ship.Position)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[47,9] cannot find symbol
+  symbol:   class Set
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[47,36] cannot find symbol
+  symbol:   class HashSet
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[49,31] calculateDamage(Ship) has private access in CombatSystem
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[59,9] cannot find symbol
+  symbol:   method assertNotNull(Universe)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[63,9] cannot find symbol
+  symbol:   method assertNotNull(Galaxy)
+  location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[123,37] cannot find symbol
+  symbol:   method getPlayer()
+  location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[124,46] cannot find symbol
+  symbol:   method getBattlePass()
+  location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[126,71] cannot find symbol
+  symbol:   method getUsername()
+  location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[138,61] cannot find symbol
+  symbol:   method getStatistics()
+  location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[396,33] cannot find symbol
+  symbol:   method getPlayer()
+  location: variable game of type Game
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.431 s
+[INFO] Finished at: 2025-01-16T00:10:53Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project myartifactid: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/workspace/src/main/java/Coordinates3D.java:[2,8] duplicate class: Coordinates3D
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[21,1] duplicate class: Ship
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[514,1] duplicate class: Rewards
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[856,1] duplicate class: CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/Main.java:[909,1] duplicate class: GUI
+[ERROR] /home/runner/workspace/src/main/java/MessageSystem.java:[3,8] duplicate class: MessageSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[4,1] duplicate class: MessageSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[11,1] duplicate class: SaveSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[70,1] duplicate class: AudioSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[79,1] duplicate class: Player
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[92,1] duplicate class: Universe
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[96,1] duplicate class: Resources
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[100,1] duplicate class: Coordinates3D
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[116,1] duplicate class: Position
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[127,1] duplicate class: ImpulseDrive
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[133,1] duplicate class: Ship
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[155,1] duplicate class: SpaceTransport
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[169,1] duplicate class: Economy
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[173,1] duplicate class: ResearchSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[177,1] duplicate class: CombatSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[181,1] duplicate class: MissionSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[185,1] duplicate class: AllianceSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[189,1] duplicate class: DungeonSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[193,1] duplicate class: GoddessSystem
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[201,8] duplicate class: Game
+[ERROR] /home/runner/workspace/src/main/java/Game.java:[270,1] duplicate class: GameTest
+[ERROR] /home/runner/workspace/src/main/java/UniverseGenerator.java:[6,8] duplicate class: UniverseGenerator
+[ERROR] /home/runner/workspace/src/main/java/ResearchSystem.java:[2,8] duplicate class: ResearchSystem
+[ERROR] /home/runner/workspace/src/main/java/ResearchSystem.java:[34,1] duplicate class: Technology
+[ERROR] /home/runner/workspace/src/main/java/MarketOrder.java:[2,8] duplicate class: MarketOrder
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[4,1] duplicate class: Account
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[15,1] duplicate class: StarTrekTechnology
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[31,1] duplicate class: Fleet
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[35,1] duplicate class: Stats
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[42,1] duplicate class: Resources
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[46,1] duplicate class: Bank
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[50,8] duplicate class: Player
+[ERROR] /home/runner/workspace/src/main/java/Player.java:[93,8] class Main is public, should be declared in a file named Main.java
+[ERROR] /home/runner/workspace/src/main/java/StarTrekRace.java:[1,8] duplicate class: StarTrekRace
+[ERROR] /home/runner/workspace/src/main/java/Fleet.java:[5,8] duplicate class: Fleet
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[8,13] cannot find symbol
+[ERROR]   symbol:   class List
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[9,13] cannot find symbol
+[ERROR]   symbol:   class List
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[1,24] package org.junit does not exist
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[2,17] package org.junit does not exist
+[ERROR] /home/runner/workspace/src/main/java/AllianceBank.java:[4,13] cannot find symbol
+[ERROR]   symbol:   class Map
+[ERROR]   location: class AllianceBank
+[ERROR] /home/runner/workspace/src/main/java/AllianceBank.java:[30,13] cannot find symbol
+[ERROR]   symbol:   class Set
+[ERROR]   location: class BankPermission
+[ERROR] /home/runner/workspace/src/main/java/EconomySystem.java:[3,13] cannot find symbol
+[ERROR]   symbol:   class Map
+[ERROR]   location: class EconomySystem
+[ERROR] /home/runner/workspace/src/main/java/EconomySystem.java:[4,13] cannot find symbol
+[ERROR]   symbol:   class Map
+[ERROR]   location: class EconomySystem
+[ERROR] /home/runner/workspace/src/main/java/CombatSystem.java:[149,25] cannot find symbol
+[ERROR]   symbol:   class ShipModule
+[ERROR]   location: class main.java.Ship
+[ERROR] /home/runner/workspace/src/main/java/CombatSystem.java:[177,12] constructor Ship(int,int,int) is already defined in class main.java.Ship
+[ERROR] /home/runner/workspace/src/main/java/BattlePass.java:[7,26] cannot find symbol
+[ERROR]   symbol:   class Reward
+[ERROR]   location: class BattlePass
+[ERROR] /home/runner/workspace/src/main/java/BattlePass.java:[57,12] cannot find symbol
+[ERROR]   symbol:   class Reward
+[ERROR]   location: class BattlePass
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[8,25] cannot find symbol
+[ERROR]   symbol:   class Member
+[ERROR]   location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[9,25] cannot find symbol
+[ERROR]   symbol:   class Territory
+[ERROR]   location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[10,13] cannot find symbol
+[ERROR]   symbol:   class CorporateAssets
+[ERROR]   location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[11,13] cannot find symbol
+[ERROR]   symbol:   class TaxSystem
+[ERROR]   location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[35,51] cannot find symbol
+[ERROR]   symbol:   class Permission
+[ERROR]   location: class Corporation
+[ERROR] /home/runner/workspace/src/main/java/Corporation.java:[57,34] cannot find symbol
+[ERROR]   symbol:   class Permission
+[ERROR]   location: class CorporateRole
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[7,18] cannot find symbol
+[ERROR]   symbol:   class ProductionJob
+[ERROR]   location: class IndustrySystem
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[73,13] cannot find symbol
+[ERROR]   symbol:   class ProductionJob
+[ERROR]   location: class IndustrialFacility
+[ERROR] /home/runner/workspace/src/main/java/IndustrySystem.java:[96,26] cannot find symbol
+[ERROR]   symbol:   class ProductionJob
+[ERROR]   location: class IndustrialFacility
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[5,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[12,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[19,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[41,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[56,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[20,34] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[21,42] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[22,41] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[34,22] cannot find symbol
+[ERROR]   symbol:   method findShipById(java.lang.String,java.lang.String)
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[35,23] cannot find symbol
+[ERROR]   symbol:   method findTargetShip(java.lang.String)
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[43,21] cannot find symbol
+[ERROR]   symbol:   method updatePosition(Ship,Ship.Position)
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[46,21] cannot find symbol
+[ERROR]   symbol:   method executeSpecialAbility(Ship,Ship)
+[ERROR]   location: class CombatInstance
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[56,30] cannot find symbol
+[ERROR]   symbol:   method calculateDamage()
+[ERROR]   location: variable attacker of type Ship
+[ERROR] /home/runner/workspace/src/main/java/CombatInstance.java:[60,15] cannot find symbol
+[ERROR]   symbol:   method takeDamage(int)
+[ERROR]   location: variable target of type Ship
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[61,27] cannot find symbol
+[ERROR]   symbol:   method getPlayer()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[62,29] cannot find symbol
+[ERROR]   symbol:   method getUniverse()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[63,30] cannot find symbol
+[ERROR]   symbol:   method getResources()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[68,13] cannot find symbol
+[ERROR]   symbol:   method setPlayer(Player)
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[69,13] cannot find symbol
+[ERROR]   symbol:   method setUniverse(Universe)
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SaveSystem.java:[70,13] cannot find symbol
+[ERROR]   symbol:   method setResources(Resources)
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/SpaceTransport.java:[56,45] cannot find symbol
+[ERROR]   symbol:   method distanceTo(Coordinates3D)
+[ERROR]   location: class Ship.Position
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[8,56] cannot find symbol
+[ERROR]   symbol:   method getPlayer()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[9,54] cannot find symbol
+[ERROR]   symbol:   method getShip()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[15,9] cannot find symbol
+[ERROR]   symbol:   method assertEquals(java.lang.String,int,int)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[16,9] cannot find symbol
+[ERROR]   symbol:   method assertNotNull(java.lang.String,Fleet)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[32,9] cannot find symbol
+[ERROR]   symbol:   method assertNotNull(CombatResult)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[33,9] cannot find symbol
+[ERROR]   symbol:   method assertNotNull(Rewards)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[34,9] cannot find symbol
+[ERROR]   symbol:   method assertTrue(boolean)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[37,9] cannot find symbol
+[ERROR]   symbol:   method assertEquals(Ship.Position,Ship.Position)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[47,9] cannot find symbol
+[ERROR]   symbol:   class Set
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[47,36] cannot find symbol
+[ERROR]   symbol:   class HashSet
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[49,31] calculateDamage(Ship) has private access in CombatSystem
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[59,9] cannot find symbol
+[ERROR]   symbol:   method assertNotNull(Universe)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GameTest.java:[63,9] cannot find symbol
+[ERROR]   symbol:   method assertNotNull(Galaxy)
+[ERROR]   location: class GameTest
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[123,37] cannot find symbol
+[ERROR]   symbol:   method getPlayer()
+[ERROR]   location: variable game of type Game
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[124,46] cannot find symbol
+[ERROR]   symbol:   method getBattlePass()
+[ERROR]   location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[126,71] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[138,61] cannot find symbol
+[ERROR]   symbol:   method getStatistics()
+[ERROR]   location: variable playerAccount of type Account
+[ERROR] /home/runner/workspace/src/main/java/GUI.java:[396,33] cannot find symbol
+[ERROR]   symbol:   method getPlayer()
+[ERROR]   location: variable game of type Game
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project myartifactid: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:375)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:351)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:171)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:163)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1220)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:370)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:351)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:171)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:163)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)

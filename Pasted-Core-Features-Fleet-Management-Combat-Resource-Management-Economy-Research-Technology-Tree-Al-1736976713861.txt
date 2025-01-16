@@ -1,0 +1,122 @@
+Core Features
+
+Fleet Management & Combat
+Resource Management & Economy
+Research & Technology Tree
+Alliance System
+Dungeon/Instance System
+Mission System
+2. Game Systems
+
+2.1 Universe Structure
+
+Multiple galaxies with unique characteristics
+Sectors within galaxies containing resources and opportunities
+Coordinate-based navigation system
+Risk levels affecting gameplay mechanics
+2.2 Combat System
+
+Turn-based fleet combat
+Multiple ship classes and roles
+Tactical positioning
+Shield and hull damage mechanics
+Combat logging and rewards
+2.3 Economy System
+
+Resource Types:
+Energy
+Minerals
+Technology Points
+Credits
+Resource Generation
+Trading System
+Market Mechanics
+2.4 Research System
+
+Multiple research paths
+Weapons Technology
+Shield Systems
+Propulsion
+Defense Systems
+Tech tree progression
+Research time and cost scaling
+2.5 Social Systems
+
+Alliances/Guilds
+Trading
+Chat System
+Rankings/Leaderboards
+3. Progression Systems
+
+3.1 Player Development
+
+Experience and Levels
+Military Ranks
+Achievement System
+Battle Pass System
+3.2 Empire Building
+
+Base Development
+Fleet Expansion
+Territory Control
+Resource Production
+4. Technical Architecture
+
+4.1 Core Systems
+
+PHP Backend
+JavaScript Frontend
+Real-time Updates
+WebSocket Integration
+Mobile Support (iOS/Android)
+4.2 Database Structure
+
+Player Data
+Universe State
+Combat Records
+Market Transactions
+5. User Interface
+
+5.1 Main Interfaces
+
+Command Center
+Fleet Management
+Research Laboratory
+Star Map
+Resource Management
+Combat Display
+5.2 Design Philosophy
+
+LCARS-inspired aesthetic
+Responsive design
+Mobile-friendly interface
+Clear feedback systems
+6. Future Development
+
+6.1 Planned Features
+
+World Boss Events
+Expanded Mission System
+Enhanced Alliance Features
+Additional Ship Classes
+New Technology Paths
+6.2 Scalability Plans
+
+Server Infrastructure
+Database Optimization
+Client Performance
+Content Updates
+7. Monetization
+
+7.1 Revenue Streams
+
+Premium Currency
+Battle Pass
+Cosmetic Items
+Premium Features
+7.2 Balance Philosophy
+
+Free-to-Play Friendly
+Non-Pay-to-Win
+Regular Content Updates
+Player Value Focus

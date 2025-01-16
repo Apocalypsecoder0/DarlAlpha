@@ -1,0 +1,68 @@
+./src/main/java/Game.java:4: error: duplicate class: MessageSystem
+class MessageSystem {
+^
+./src/main/java/Game.java:11: error: duplicate class: SaveSystem
+class SaveSystem {
+^
+./src/main/java/Game.java:70: error: duplicate class: AudioSystem
+class AudioSystem {
+^
+./src/main/java/Game.java:116: error: duplicate class: Position
+class Position {
+^
+./src/main/java/Game.java:133: error: duplicate class: Ship
+class Ship {
+^
+./src/main/java/Game.java:244: error: duplicate class: GameTest
+class GameTest{
+^
+./src/main/java/CombatSystem.java:3: error: duplicate class: CombatSystem
+public class CombatSystem {
+       ^
+./src/main/java/CombatSystem.java:36: error: duplicate class: Coordinates3D
+class Coordinates3D {
+^
+./src/main/java/CombatSystem.java:48: error: duplicate class: Position
+class Position {
+^
+./src/main/java/CombatSystem.java:63: error: duplicate class: Ship
+class Ship {
+^
+./src/main/java/CombatSystem.java:89: error: duplicate class: EnemyShip
+class EnemyShip extends Ship {
+^
+./src/main/java/CombatSystem.java:98: error: duplicate class: Fleet
+class Fleet {
+^
+./src/main/java/CombatSystem.java:114: error: duplicate class: Rewards
+class Rewards {
+^
+./src/main/java/SpaceTransport.java:3: error: duplicate class: Coordinates3D
+class Coordinates3D {
+^
+./src/main/java/SpaceTransport.java:87: error: duplicate class: ImpulseDrive
+class ImpulseDrive {
+^
+./src/main/java/SpaceTransport.java:111: error: duplicate class: SpaceTransport
+public class SpaceTransport {
+       ^
+./src/main/java/Player.java:4: error: duplicate class: Account
+class Account {
+^
+./src/main/java/Player.java:31: error: duplicate class: Fleet
+class Fleet {
+^
+./src/main/java/Player.java:39: error: duplicate class: Player
+public class Player {
+       ^
+./src/main/java/Player.java:68: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+./src/main/java/StarTrekRace.java:1: error: duplicate class: StarTrekRace
+public enum StarTrekRace {
+       ^
+./src/main/java/StarTrekTechnology.java:1: error: duplicate class: StarTrekTechnology
+public class StarTrekTechnology {
+       ^
+./src/main/java/Main.java:16: error: duplicate class: Resources
+class Resources {
