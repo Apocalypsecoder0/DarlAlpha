@@ -1,4 +1,3 @@
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -32,23 +31,26 @@ public class CrossPlatformClient extends Application {
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 playerId = playerIdField.getText();
                 out.println(playerId);
-                
+    
                 new Thread(() -> {
                     try {
                         String message;
                         while ((message = in.readLine()) != null) {
                             String finalMessage = message;
                             javafx.application.Platform.runLater(() -> 
-                                messageArea.appendText(finalMessage + "\n")
+                                messageArea.appendText(finalMessage + "\\n")
                             );
                         }
                     } catch (IOException ex) {
-                        ex.printStackTrace();
+                        javafx.application.Platform.runLater(() -> 
+                            messageArea.appendText("Error reading from server: " + ex.getMessage() + "\\n")
+                        );
                     }
                 }).start();
-                
+    
             } catch (IOException ex) {
-                messageArea.appendText("Connection failed: " + ex.getMessage() + "\n");
+                messageArea.appendText("Connection failed: " + ex.getMessage() + "\\n");
+                closeResources();
             }
         });
 
@@ -69,9 +71,19 @@ public class CrossPlatformClient extends Application {
     @Override
     public void stop() {
         try {
-            if (socket != null) socket.close();
+            if (socket != null && !socket.isClosed()) socket.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            messageArea.appendText("Error closing socket: " + e.getMessage() + "\\n");
+        }
+    }
+
+    private void closeResources() {
+        try {
+            if (in != null) in.close();
+            if (out != null) out.close();
+            if (socket != null && !socket.isClosed()) socket.close();
+        } catch (IOException e) {
+            messageArea.appendText("Error closing resources: " + e.getMessage() + "\\n");
         }
     }
 

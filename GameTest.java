@@ -1,9 +1,12 @@
-
 package test.java;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import main.java.*;
+import java.util.Set;
+import java.util.HashSet;
 
 public class GameTest {
     @Test
@@ -26,15 +29,15 @@ public class GameTest {
         Player attacker = new Player();
         Player defender = new Player();
 
-        attacker.getFleet().addShip(new Ship("Battleship"));
-        attacker.getFleet().addShip(new Ship("Destroyer"));
-        defender.getFleet().addShip(new Ship("Cruiser"));
-        defender.getFleet().addShip(new Ship("Carrier"));
+        attacker.getFleet().addShip(new Ship(new Position(new Coordinates3D(0, 0, 0))));
+        attacker.getFleet().addShip(new Ship(new Position(new Coordinates3D(0, 0, 0))));
+        defender.getFleet().addShip(new Ship(new Position(new Coordinates3D(0, 0, 0))));
+        defender.getFleet().addShip(new Ship(new Position(new Coordinates3D(0, 0, 0))));
 
         CombatResult result = combat.initiateCombat(attacker.getFleet(), defender.getFleet());
         assertNotNull(result);
-        assertNotNull(result.rewards);
-        assertTrue(result.rewards.getClass() == Rewards.class);
+        assertNotNull(result.getRewards());
+        assertTrue(result.getRewards().getClass() == Rewards.class);
 
         assertEquals(Ship.Position.FRONT,
             attacker.getFleet().getShips().get(0).getPosition());
@@ -42,7 +45,7 @@ public class GameTest {
 
     @Test
     public void testShipDamageCalculation() {
-        Ship testShip = new Ship("Battleship");
+        Ship testShip = new Ship(new Position(new Coordinates3D(0, 0, 0)));
         CombatSystem combat = new CombatSystem();
 
         Set<Integer> damages = new HashSet<>();

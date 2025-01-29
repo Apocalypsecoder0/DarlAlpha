@@ -3,217 +3,6 @@ import java.net.*;
 import java.util.*;
 import java.util.concurrent.*;
 
-class MessageSystem {
-    public void printMessage(String message) {
-        System.out.println(message);
-    }
-}
-
-class AudioSystem {
-    public void playSound(String soundFile) {
-        System.out.println("Playing sound: " + soundFile);
-    }
-    public void playMusic(String musicFile){
-        System.out.println("Playing music: "+ musicFile);
-    }
-}
-
-class Player {
-    private Resources resources;
-
-    public Resources getResources() {
-        return resources;
-    }
-
-    public void setResources(Resources resources) {
-        this.resources = resources;
-    }
-}
-
-class Universe {
-}
-
-class Resources {
-}
-
-class Coordinates3D {
-    public double x, y, z;
-
-    public Coordinates3D(double x, double y, double z) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
-    }
-
-    public double distanceTo(Coordinates3D other) {
-        return Math.sqrt(Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2) + Math.pow(this.z - other.z, 2));
-    }
-}
-
-class Position {
-    public Coordinates3D coordinates;
-    public Position(Coordinates3D coordinates){
-        this.coordinates = coordinates;
-    }
-
-    public Coordinates3D getCoordinates() {
-        return coordinates;
-    }
-}
-
-class ImpulseDrive {
-    public void activateImpulse(Coordinates3D destination) {
-        System.out.println("Activating impulse drive towards: " + destination.x + ", " + destination.y + ", " + destination.z);
-    }
-}
-
-class Ship {
-    private ImpulseDrive impulseDrive;
-    private Position position;
-
-    public Ship(Position position) {
-        this.position = position;
-        this.impulseDrive = new ImpulseDrive();
-    }
-
-    public Position getPosition() {
-        return position;
-    }
-
-    public ImpulseDrive getImpulseDrive() {
-        return impulseDrive;
-    }
-
-    public void setPosition(Position position) {
-        this.position = position;
-    }
-}
-
-class SpaceTransport {
-    public void activateStargate(String destination) {
-        System.out.println("Activating Stargate to " + destination);
-    }
-
-    public void enterHyperspace() {
-        System.out.println("Entering Hyperspace");
-    }
-
-    public void jumpToGate(String gateName) {
-        System.out.println("Jumping to jump gate: " + gateName);
-    }
-}
-
-class Economy {
-}
-
-class ResearchSystem {
-}
-
-class CombatSystem {
-}
-
-class MissionSystem {
-}
-
-class AllianceSystem {
-}
-
-class DungeonSystem {
-}
-
-class GoddessSystem {
-}
-
-class DungeonFinder {
-    public void searchForDungeons(String criteria) {
-        System.out.println("Searching for dungeons matching criteria: " + criteria);
-    }
-
-    public void joinDungeon(int dungeonId) {
-        System.out.println("Joining dungeon with ID: " + dungeonId);
-    }
-}
-
-class CodexSystem{
-    public void addEntry(String entry){
-        System.out.println("Adding entry to Codex: " + entry);
-    }
-}
-
-class Coordinates {
-    public double x, y;
-    public Coordinates(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class CelestialBody {
-    public String name;
-    public Coordinates coordinates;
-    public double size;
-    public String type;
-    public CelestialBody(String name, Coordinates coordinates, double size, String type) {
-        this.name = name;
-        this.coordinates = coordinates;
-        this.size = size;
-        this.type = type;
-    }
-}
-
-
-class SaveSystem {
-    public void saveGame(GameData gameData, int slot){
-        System.out.println("Saving game data to slot " + slot);
-    }
-    public GameData loadGame(int slot){
-        System.out.println("Loading game data from slot " + slot);
-        return new GameData(100,1,"Player1");
-    }
-    public static class GameData{
-        public int playerHealth;
-        public int playerLevel;
-        public String playerName;
-
-        public GameData(int playerHealth, int playerLevel, String playerName) {
-            this.playerHealth = playerHealth;
-            this.playerLevel = playerLevel;
-            this.playerName = playerName;
-        }
-    }
-}
-
-class PartySystem{
-
-}
-
-class Store{
-
-}
-
-class ExpansionSystem{
-
-}
-class Tutorial{
-    Player player;
-    public Tutorial(Player player){
-        this.player = player;
-    }
-}
-
-class Empire{
-
-}
-
-class AnnouncementSystem {}
-class EmpireSkillSystem {}
-class ZoneGuideSystem {}
-class PrestigeSystem {}
-class AscensionSystem {}
-class EmpireTitleSystem {}
-class Battleground {}
-class BattlefieldRaid {}
-
 public class Game {
     private Player player;
     private Universe universe;
@@ -249,7 +38,7 @@ public class Game {
     public Game() {
         System.out.println("Dark Alpha Engine v1.0.0");
         System.out.println("Developer: Apocalypsecode0");
-        System.out.println("\nDebug: Initializing game systems...");
+        System.out.println("\\nDebug: Initializing game systems...");
         initializeSystems();
         System.out.println("Debug: Initializing player...");
         initializePlayer();
@@ -426,14 +215,14 @@ class EngineInfo {
     public static final String AUTHOR = "Your Name";
 
     private static String loadLogo() {
-        return "  _.--\"\"--._\n" +
-               " .'          '.\n" +
-               "/   O      O   \\\n" +
-               "|    \\  ^  /    |\n" +
-               "\\     `----'     /\n" +
-               " `. _______ .' \n" +
-               "   //_____\\\\ \n" +
-               "  (( ____ ))\n" +
+        return "  _.--\"\"--._\\n" +
+               " .'          '.\\n" +
+               "/   O      O   \\\\n" +
+               "|    \\  ^  /    |\\n" +
+               "\\     `----'     /\\n" +
+               " `. _______ .' \\n" +
+               "   //_____\\\\ \\n" +
+               "  (( ____ ))\\n" +
                "   `-----'";
     }
 }
